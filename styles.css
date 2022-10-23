@@ -200,7 +200,14 @@ a:hover {
   max-width: 1200px !important;
 }
 
+.social-links{
+  margin-right: 0px;
+}
+
 @media (max-width: 576px) {
+  .wrapper {
+    width: 100%;
+  }
   h2 {
     font-size: 18px;
   }
@@ -210,5 +217,23 @@ a:hover {
   }
   h3 {
     background-size: 90%;
+  }
+
+  .inspire {
+    display: none;
+  }
+}
+
+@media (max-width: 1210px) {
+  .inspire {
+    width: 100%;
+    margin: 0px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .profile-photo {
+    width: 100%;
+    height: auto;
   }
 }
